@@ -29,7 +29,7 @@ class SearchScreenResultRepository extends BaseRepository {
                   SearchResultScreenNetworkErrorState(failure.message)
             },
         (response) => {
-              if (response.screenResult!.isNotEmpty)
+              if (response.screenResult.isNotEmpty)
                 {
                   searchResultScreenState =
                       SearchResultScreenGetDataSuccessState(response)

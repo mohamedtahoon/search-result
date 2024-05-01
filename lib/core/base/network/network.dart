@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
 import 'package:search_task/core/base/base_utils/enums/request_type_enum.dart';
